@@ -1,11 +1,3 @@
-*:not(body):not(html):not(.wrapper):not(.subContent)  {
-  /*box-sizing:border-box;*/
-  /*border:1px dashed #000;*/
-}
-
-/*.columns {
-  min-height: 100px;
-}*/
 *,
 *::before,
 *::after {
@@ -15,15 +7,13 @@
 }
 
 .wrapper {
-  width: 100%;
-  margin: 0 auto;
-  overflow: auto;
-  font-family: 'Lora', serif;
+  margin-top: -1.8vh;
 }
 
 body {
   padding: 1vh;
   background-color: black;
+  font-family: 'Lora', serif;
 }
 
 .navBar, .subContent1, .subContent2 {
@@ -41,28 +31,49 @@ ul {
 a {
   text-decoration: none;
   color: black;
-
-
 }
 
 li {
     display: inline;
     font-size: 10px;
     padding: 1px;
+}
 
+h1 {
+  display: block;
+  padding: 5px 13px;
+  padding-top: 15px;
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+h3 {
+  margin-bottom: -20px;
+  font-weight: lighter;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+h5, p {
+  font-weight: lighter;
+  padding: 5px;
+  margin: 5px;
 }
 
 h4 {
-  display: block;
-  /*text-align: center;*/
-  padding-left: 15px;
-  padding-top: 15px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+  font-size: 0.8em;
+  font-weight: lighter;
+  padding-left: 0;
 }
 
+p {
+  line-height: 190%;
+  font-size: 0.8em;
 
-
-
+}
 
 .mainContent {
   color: white;
@@ -80,7 +91,7 @@ img {
 .subContent1, .subContent2{
   height: 100%;
   width: 100%;
-  margin-top: 18px;
+  margin-bottom: 18px;
   overflow: auto;
 }
 
