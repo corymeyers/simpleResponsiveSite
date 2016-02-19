@@ -1,24 +1,11 @@
-/* For testing only */
-
 *:not(body):not(html):not(.wrapper):not(.subContent)  {
-  box-sizing:border-box;
-  border:1px dashed #000;
+  /*box-sizing:border-box;*/
+  /*border:1px dashed #000;*/
 }
 
-.columns {
+/*.columns {
   min-height: 100px;
-}
-
-/* End for testing */
-
-/*html {
-  height: 100%;
 }*/
-
-body {
-  margin: 0px;
-}
-
 *,
 *::before,
 *::after {
@@ -28,15 +15,62 @@ body {
 }
 
 .wrapper {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   overflow: auto;
+  font-family: 'Lora', serif;
 }
 
-.mainContent {
-  overflow: auto;
-  height: 50vh;
+body {
+  padding: 1vh;
+  background-color: black;
+}
+
+.navBar, .subContent1, .subContent2 {
+  background-color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 13px;
+    height: 40px;
+    background-color: #F7F7F7;
+    padding-bottom: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+li {
+    display: inline;
+    font-size: 10px;
+    padding: 1px;
+
+}
+
+h4 {
   display: block;
+  /*text-align: center;*/
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+.mainContent {
+  color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 .subContent {
@@ -44,7 +78,7 @@ body {
 }
 
 .subContent1, .subContent2{
-  height: 150px;
+  height: 100%;
   width: 100%;
   margin-top: 18px;
   overflow: auto;
@@ -53,8 +87,11 @@ body {
 /* MEDIA QUERIES
 ======================*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
+ img {
 
+
+ }
   .subContent {
     height: 50vh;
   }
@@ -72,7 +109,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1550px) {
 
   .wrapper {
     /*border: 1px solid green;*/
@@ -86,14 +123,12 @@ body {
   }
 
   .subContent1 {
-    background-color: red;
     margin-top: 0;
     width: 100%;
     height: 49%;
   }
 
   .subContent2 {
-    background-color: cyan;
     width: 100%;
     height: 49%;
   }
