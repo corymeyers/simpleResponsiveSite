@@ -133,8 +133,14 @@ body {
   margin: 0 10px;
   font-weight: lighter;
   font-size: 0.8em;
-  font-size: 0.8em;
-  text-align: justify; }
+  font-size: 0.8em; }
+  @media (min-width: 600px) {
+    .subContent h5 {
+      text-align: center;
+      font-size: 1.4em;
+      padding-top: 80px;
+      padding-right: 45px;
+      letter-height: 10px; } }
   @media (min-width: 1100px) {
     .subContent h5 {
       padding-top: 170px; } }

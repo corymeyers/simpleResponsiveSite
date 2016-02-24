@@ -7,11 +7,18 @@
   h5 {
     @include fontStyle;
     font-size: 0.8em;
-    text-align: justify;
 
-    @media #{$breakLarge} {
-      padding-top: 170px;
-    }
+      @media #{$breakMedium} {
+        text-align: center;
+        font-size: 1.4em;
+        padding-top: 80px;
+        padding-right: 45px;
+        letter-height: 10px;
+      }
+
+      @media #{$breakLarge} {
+        padding-top: 170px;
+      }
   }
 
   p {
