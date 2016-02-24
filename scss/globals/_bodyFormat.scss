@@ -1,0 +1,36 @@
+html {
+  @media #{$breakMedium} {
+  background-color: white;
+  margin-left: -2%;
+  margin-bottom: 0;
+  }
+
+  @media #{$breakLarge} {
+    @include largeFormatStyle;
+  }
+}
+
+.wrapper {
+margin-right: 1vh;
+margin-left: 0.4vh;
+height: 100%;
+position: fixed;
+
+  @media #{$breakMedium} {
+    background-color: $bgwhite;
+  }
+
+  @media #{$breakLarge} {
+    @include largeFormatStyle;
+  }
+}
+
+body {
+  background-color: black;
+  font-family: 'Lora', serif;
+
+  @media #{$breakLarge} {
+    @include largeFormatStyle;
+    display: inline;
+  }
+}

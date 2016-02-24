@@ -1,0 +1,43 @@
+.mainContent {
+  color: white;
+
+    @media #{$breakMedium} {
+      width: 100%;
+      height: 65vh;
+      background-color: black;
+    }
+      @media #{$breakLarge} {
+        width: 100%;
+        height: 100%;
+      }
+
+  h3 {
+    @include fontStyle;
+    font-size: 1.2em;
+    padding: 0;
+    margin-top: 7px;
+
+      @media #{$breakMedium} {
+        @include mediumHeaderStyle;
+      }
+  }
+
+  h4 {
+    @include fontStyle;
+    margin-bottom: 15px;
+    padding: 0;
+
+    @media #{$breakMedium} {
+      @include mediumHeaderStyle;
+    }
+  }
+
+  img {
+      width: 100%;
+      height: 100%;
+
+        @media #{$breakMedium} {
+          object-fit: cover;
+        }
+  }
+}

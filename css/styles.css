@@ -1,0 +1,213 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media (min-width: 600px) {
+  html {
+    background-color: white;
+    margin-left: -2%;
+    margin-bottom: 0; } }
+@media (min-width: 1100px) {
+  html {
+    margin: 0;
+    height: 100%;
+    background-color: transparent;
+    width: 100%; } }
+
+.wrapper {
+  margin-right: 1vh;
+  margin-left: 0.4vh;
+  height: 100%;
+  position: fixed; }
+  @media (min-width: 600px) {
+    .wrapper {
+      background-color: white; } }
+  @media (min-width: 1100px) {
+    .wrapper {
+      margin: 0;
+      height: 100%;
+      background-color: transparent;
+      width: 100%; } }
+
+body {
+  background-color: black;
+  font-family: 'Lora', serif; }
+  @media (min-width: 1100px) {
+    body {
+      margin: 0;
+      height: 100%;
+      background-color: transparent;
+      width: 100%;
+      display: inline; } }
+
+.mainContent {
+  color: white; }
+  @media (min-width: 600px) {
+    .mainContent {
+      width: 100%;
+      height: 65vh;
+      background-color: black; } }
+  @media (min-width: 1100px) {
+    .mainContent {
+      width: 100%;
+      height: 100%; } }
+  .mainContent h3 {
+    padding: 13px;
+    margin: 0 10px;
+    font-weight: lighter;
+    font-size: 0.8em;
+    font-size: 1.2em;
+    padding: 0;
+    margin-top: 7px; }
+    @media (min-width: 600px) {
+      .mainContent h3 {
+        top: -11vh;
+        left: 40px;
+        position: relative; } }
+  .mainContent h4 {
+    padding: 13px;
+    margin: 0 10px;
+    font-weight: lighter;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    padding: 0; }
+    @media (min-width: 600px) {
+      .mainContent h4 {
+        top: -11vh;
+        left: 40px;
+        position: relative; } }
+  .mainContent img {
+    width: 100%;
+    height: 100%; }
+    @media (min-width: 600px) {
+      .mainContent img {
+        object-fit: cover; } }
+
+.navBar {
+  background-color: white; }
+  @media (min-width: 600px) {
+    .navBar {
+      position: absolute;
+      height: 175px;
+      width: 175px;
+      background: rgba(204, 204, 204, 0.95);
+      top: 50px;
+      left: 50px; } }
+  .navBar h1 {
+    display: block;
+    padding: 0 13px;
+    padding-top: 20px;
+    font-size: 0.9em;
+    font-weight: lighter; }
+  .navBar ul {
+    margin: 0;
+    padding: 13px;
+    height: 40px;
+    background-color: #F7F7F7;
+    padding-bottom: 14px; }
+    @media (min-width: 600px) {
+      .navBar ul {
+        background-color: rgba(204, 204, 204, 0); } }
+  .navBar li {
+    display: inline;
+    font-size: 10px;
+    padding: 1px;
+    clear: both; }
+    @media (min-width: 600px) {
+      .navBar li {
+        display: block; } }
+  .navBar a {
+    text-decoration: none;
+    color: black;
+    display: inline-block; }
+
+@media (min-width: 600px) {
+  .subContent {
+    height: 100%;
+    width: 100%; } }
+.subContent h5 {
+  padding: 13px;
+  margin: 0 10px;
+  font-weight: lighter;
+  font-size: 0.8em;
+  font-size: 0.8em;
+  text-align: justify; }
+  @media (min-width: 1100px) {
+    .subContent h5 {
+      padding-top: 170px; } }
+.subContent p {
+  padding: 13px;
+  margin: 0 10px;
+  font-weight: lighter;
+  font-size: 0.8em;
+  line-height: 190%; }
+.subContent .subContent1 {
+  height: 100%;
+  width: auto;
+  margin-bottom: 18px;
+  background-color: white; }
+  @media (min-width: 600px) {
+    .subContent .subContent1 {
+      display: none; } }
+.subContent .subContent2 {
+  height: 100%;
+  width: auto;
+  margin-bottom: 18px;
+  background-color: white; }
+  @media (min-width: 600px) {
+    .subContent .subContent2 {
+      background-color: black;
+      color: white;
+      margin-top: 10px;
+      position: absolute;
+      height: 100%;
+      padding-top: 30px;
+      padding-left: 35px;
+      background-color: #192004;
+      float: left;
+      width: 50%;
+      margin-left: -5px;
+      text-align: center;
+      display: block; } }
+  @media (min-width: 1100px) {
+    .subContent .subContent2 {
+      position: absolute;
+      right: 0;
+      width: 30%;
+      height: 50%;
+      border-right: 10px solid white;
+      border-bottom: 5px solid white;
+      top: 0;
+      margin-top: 0;
+      border-left: 10px solid white; } }
+.subContent .subContent3 {
+  background-color: white; }
+  @media (min-width: 600px) {
+    .subContent .subContent3 {
+      background-color: black;
+      color: white;
+      margin-top: 10px;
+      position: absolute;
+      height: 100%;
+      float: left;
+      width: 50%;
+      right: 0px;
+      padding: 30px;
+      border-left: 10px solid white; } }
+  @media (min-width: 1100px) {
+    .subContent .subContent3 {
+      position: absolute;
+      right: 0;
+      width: 30%;
+      height: 50%;
+      border-right: 10px solid white;
+      border-bottom: 5px solid white;
+      bottom: 0;
+      border-top: 5px solid white; }
+      .subContent .subContent3 p {
+        padding-top: 170px; } }
+
+/*# sourceMappingURL=styles.css.map */

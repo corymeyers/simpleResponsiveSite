@@ -1,0 +1,43 @@
+@mixin fontStyle {
+  padding: 13px;
+  margin: 0 10px;
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+@mixin mobileTextStyle {
+  height: 100%;
+  width: auto;
+  margin-bottom: 18px;
+  background-color: $bgwhite;
+}
+
+@mixin mediumHeaderStyle {
+  top: -11vh;
+  left: 40px;
+  position: relative;
+}
+
+@mixin mediumTextStyle {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  position: absolute;
+  height: 100%;
+}
+
+@mixin largeFormatStyle {
+  margin: 0;
+  height: 100%;
+  background-color: transparent;
+  width: 100%;
+}
+
+@mixin largeTextStyle {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  height: 50%;
+  border-right: 10px solid white;
+  border-bottom: 5px solid white;
+}

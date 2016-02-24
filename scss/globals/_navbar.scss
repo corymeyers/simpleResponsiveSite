@@ -1,0 +1,48 @@
+.navBar {
+  background-color: $bgwhite;
+
+    @media #{$breakMedium} {
+      position: absolute;
+      height: 175px;
+      width: 175px;
+      background: rgba(204, 204, 204, 0.95);
+      top: 50px;
+      left: 50px;
+    }
+
+    h1 {
+      display: block;
+      padding: 0 13px;
+      padding-top: 20px;
+      font-size: 0.9em;
+      font-weight: lighter;
+    }
+
+    ul {
+        margin: 0;
+        padding: 13px;
+        height: 40px;
+        background-color: #F7F7F7;
+        padding-bottom: 14px;
+
+          @media #{$breakMedium} {
+            background-color: rgba(204, 204, 204, 0);
+          }
+    }
+
+    li {
+       display: inline;
+       font-size: 10px;
+       padding: 1px;
+       clear:both;
+       @media #{$breakMedium} {
+         display: block;
+       }
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+    }
+}
